@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conhecendo a estrutura de navegação verical em um site com HTML5.">
+    <title>Navegação Vertical | HTML</title>
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: #292929;
+            font-family: sans-serif;
+            color: bisque;
+        }
+    </style>
+</head>
+
+<body id="inicio">
+
+    <header>
+        <h1> Café Pelé</h1>
+        <nav>
+            <ul>
+                <li> <a href="#sobre">Sobre </a></li>
+                <li> <a href="#cardapio">Cardapio </a></li>
+                <li> <a href="#horario">Horario </a></li>
+                <li> <a href="#contato">Contato </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre">
+            <h2>Sobre o Café Pelé</h2>
+            <p>O <strong> Café Pelé</strong> foi criado em 1970 numa parceria com o jogador Pelé logo após a conquista
+                da Copa do mundo do México.</p>
+
+            <p>Nosso espaço foi criado para quem gosta de <em> lazer, café, boa comida e bons momentos</em>. </p>
+
+            <a href="#inicio"> Voltar para o inicio</a>
+        </section>
+
+        <section id="cardapio">
+            <h2> Cardápio </h2>
+
+            <p>Confira alguns dos produtos dispóniveis</p>
+
+            <h3> Bebidas </h3>
+            <ul>
+                <li>Latte</li>
+                <li>Macchiato</li>
+                <li>Chocolate Quente</li>
+                <li>Cappuccino</li>
+            </ul>
+
+            <h3> Comida </h3>
+            <ul>
+                <li> Croissants</li>
+                <li> Pão de Queijo</li>
+                <li> Bolo de Laranja</li>
+                <li> Queijo Quente</li>
+            </ul>
+        </section>
+
+        <section id="horario">
+            <h2> Horários </h2>
+            <dl>
+                <dt> Segunda a sexta </dt>
+                <dd> 08h às 19h </dd>
+
+                <dt> Sábado </dt>
+                <dd> 09h às 18h </dd>
+
+                <dt> Domingo </dt>
+                <dd> 09h às 14h </dd>
+            </dl>
+            <a href="#inicio">Voltar ao ínicio</a>
+        </section>
+
+        <section id="contato">
+            <h2> Entre em contato </h2>
+
+            <p> Ficou com alguma dúvida? Entre em contato conosco.</p>
+
+            <address>
+                <p>Rua das flores, 123 - Pinheiros/SP</p>
+                <p>
+                    <a href="mailto:contato@cafepele.com">
+                        contato@cafepele.com
+                    </a>
+                </p>
+                <p>
+                    <a href="tel:+5511123456789">
+                        +55 (11) 12345-6789
+                    </a>
+                </p>
+                <a href="#inicio"> Voltar para o ínicio</a>
+            </address>
+        </section>
+
+    </main>
+    <footer>
+        <nav>
+            <ul>
+                <li> <a href="#sobre">Sobre </a></li>
+                <li> <a href="#cardapio">Cardapio </a></li>
+                <li> <a href="#horario">Horario </a></li>
+                <li> <a href="#contato">Contato </a></li>
+            </ul>
+        </nav>
+
+        <p> &copy; 2026 Café Pelé, Todos os direitos reservados. </p>
+    </footer>
+</body>
+
+</html>
